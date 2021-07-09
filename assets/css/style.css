@@ -112,6 +112,35 @@ nav .nav-itens{
 .features{
     padding:0 280px;
 }
+.features p{
+    color:#9ea2ac;
+}
 .second-title-heading{
     margin: 15px 0 10px 0;
+}
+
+.extra-description{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 0 100px;  
+}
+.extra-description p{
+    color:#9ea2ac;
+    margin: 20px 0;
+}
+.img-box{
+    margin-right:40px;
+}
+.text-box span{
+    color:#4f9a98;
+}
+.text-box a::after{
+    content: '';
+    width:145px;
+    height:2px;
+    color:#6cdad4;
+    background-color:#4f9a98;
+    display:block;
+    
 }
